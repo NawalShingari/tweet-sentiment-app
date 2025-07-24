@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pickle
-import nlt
+import nltk
 import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
