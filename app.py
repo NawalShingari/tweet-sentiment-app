@@ -1,10 +1,11 @@
 
 import streamlit as st
 import pickle
-import nltk
+import nlt
 import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+nltk.download('stopwords')
 
 # Load model and vectorizer
 model = pickle.load(open('sentiment_model.pkl', 'rb'))
